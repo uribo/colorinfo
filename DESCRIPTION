@@ -8,7 +8,14 @@ Authors@R:
            email = "suika1127@gmail.com",
            comment = c(ORCID = "0000-0002-0493-6186"))
 Description: What the package does (one paragraph).
+Imports:
+    cli (>= 2.2.0),
+    crayon (>= 1.4.0),
+    glue (>= 1.4.2),
+    purrr (>= 0.3.4)
 License: MIT + file LICENSE
+URL: https://github.com/uribo/colorinfo
+BugReports: https://github.com/uribo/colorinfo/issues
 Encoding: UTF-8
 Language: en
 LazyData: true
