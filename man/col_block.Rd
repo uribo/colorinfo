@@ -12,12 +12,13 @@ col_block(color, bg = NULL)
 \item{bg}{background color}
 }
 \description{
-Display Color Code Blocks
+Outputs a color close to the given color code on
+the command line.
 }
 \examples{
 \dontrun{
 col_block("#00af00")
 col_block("#00af00", bg = "white")
-col_block("#00af00", bg = "black")
+col_block(rgb(221, 235, 30, maxColorValue = 255), bg = "black")
 }
 }

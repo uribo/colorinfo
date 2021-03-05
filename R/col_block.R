@@ -1,11 +1,13 @@
 #' Display Color Code Blocks
+#' @description Outputs a color close to the given color code on
+#' the command line.
 #' @param color color code
 #' @param bg background color
 #' @examples
 #' \dontrun{
 #' col_block("#00af00")
 #' col_block("#00af00", bg = "white")
-#' col_block("#00af00", bg = "black")
+#' col_block(rgb(221, 235, 30, maxColorValue = 255), bg = "black")
 #' }
 #' @export
 col_block <- function(color, bg = NULL) {
